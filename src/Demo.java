@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
 public class Demo {
 
     public static void main (String args[]){

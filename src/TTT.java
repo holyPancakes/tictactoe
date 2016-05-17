@@ -1,8 +1,14 @@
 import java.util.ArrayList;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
 public class TTT {
     int[][] board ;
     ArrayList<Integer> moves;
     ArrayList<Integer> scores;
+
+    private JButton bird[][];
     public TTT() {
         board = new int[3][3];
         clearBoard();
